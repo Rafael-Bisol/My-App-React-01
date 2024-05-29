@@ -1,10 +1,10 @@
-import './App.css'
-
 function App() {
+  const nome = "Rafael";
+  const sobrenome = "Bisol";
 
   return (
     <>
-      <h1>Rafael Bisol</h1>
+      <h1>{nome} {sobrenome}</h1>
     </>
   )
 }
